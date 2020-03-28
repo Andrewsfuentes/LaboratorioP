@@ -77,6 +77,12 @@ public class Proveedor extends javax.swing.JFrame {
         jLabel1NombreProve.setText("Nombre");
         getContentPane().add(jLabel1NombreProve, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 240, -1, -1));
         getContentPane().add(jTextField1Descri, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 280, 170, 30));
+
+        jTextField1NombreP.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1NombrePActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextField1NombreP, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 230, 170, 30));
 
         jLabel1ImgProveedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMg/agregar-Pro.png"))); // NOI18N
@@ -143,6 +149,10 @@ public class Proveedor extends javax.swing.JFrame {
         pro.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1Regresar4ActionPerformed
+
+    private void jTextField1NombrePActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1NombrePActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1NombrePActionPerformed
 
     /**
      * @param args the command line arguments
